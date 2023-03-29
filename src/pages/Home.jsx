@@ -1,13 +1,12 @@
 import React from 'react'
-// import CocktailList from '../components/CocktailList'
-// import SearchForm from '../components/SearchForm'
+import CocktailList from '../components/CocktailList'
+import SearchForm from '../components/SearchForm'
 
 const Home = () => {
   return (
     <main>
-      {/* <SearchForm/>
-      <CocktailList/> */}
-      home
+      <SearchForm/>
+      <CocktailList/>
     </main>
   )
 }
