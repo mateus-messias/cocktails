@@ -66,10 +66,7 @@ const SingleCocktail = () => {
   const {name, image, category, info, glass, instructions, ingredients} = cocktail
 
   return (
-    <section className='section cocktail-section'>
-      <Link to='/' className='btn btn-primary'>
-        back home
-      </Link>
+    <section className='section cocktail-section'>      
       <h2 className='section-title' >{name}</h2>
       <div className="drink">
         <img src={image} alt={name} />
@@ -86,6 +83,9 @@ const SingleCocktail = () => {
           }</p> 
         </div>
       </div>
+      <Link to='/' className='btn btn-primary'>
+        back home
+      </Link>
     </section>
   )
 }
